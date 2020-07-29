@@ -1,0 +1,25 @@
+nav {
+    background-color: rgb(0, 160, 160);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+body::after {
+    content: "";
+    background: url("https://i.pinimg.com/originals/1e/77/a7/1e77a704a280dfb5c477c7b87e7d2229.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.2;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  
