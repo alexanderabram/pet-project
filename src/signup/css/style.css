@@ -1,0 +1,31 @@
+nav {
+    background-color: rgb(0, 160, 160);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+body::after {
+    content: "";
+    background: url("https://i.ytimg.com/vi/j0CplGKoCbM/maxresdefault.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  h4 {
+      font-size: 15px;
+      white-space: nowrap;
+      overflow: hidden;
+  }
+
+  
