@@ -28,7 +28,7 @@ export default class Footer extends Component {
                             <div class="col l3">
                                 <h5 class="white-text">Links</h5>
                                 <ul>
-                                    <li><a class="white-text" href="https://www.petsmart.com/" target="_blamk">Find A Friend</a></li>
+                                    <li><a class="white-text" href="/us">About Us</a></li>
                                     <li><a class="white-text" href="/signup">Sign-Up</a></li>
                                     <li><a class="white-text" href="/">Home</a></li>
                                 </ul>
