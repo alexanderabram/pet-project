@@ -19,11 +19,11 @@ export default class Us extends Component {
         return (
             <div className="row" id="group">
                 <div className="col s12">
-                    <div className="col s12" id="sect">
+                    <div className="col s12" id="thisIsUs">
                         <h3><b>This is Us</b></h3>
                 </div>
                     <div className="container" id="ourSection">
-                        <div className="col s12">
+                        <div className="col s12" id="filler">
 
                             <div className="row">
                                 <div className="col s6">
@@ -39,7 +39,7 @@ export default class Us extends Component {
                                 </div>
                             </div>
 
-<p>-----------------------------------------------------------------------------------------------------------------------------------</p>
+                            <p>-----------------------------------------------------------------------------------------------------------------------------------</p>
                             <div className="row">
                                 <div className="col s6">
                                     <div id="Grigore">
@@ -54,7 +54,7 @@ export default class Us extends Component {
                                 </div>
                             </div>
 
-<p>-----------------------------------------------------------------------------------------------------------------------------------</p>
+                            <p>-----------------------------------------------------------------------------------------------------------------------------------</p>
                             <div className="row">
                                 <div className="col s6">
                                     <div id="Ray">
@@ -70,7 +70,7 @@ export default class Us extends Component {
                                 </div>
                             </div>
 
-<p>-----------------------------------------------------------------------------------------------------------------------------------</p>
+                            <p>-----------------------------------------------------------------------------------------------------------------------------------</p>
                             <div className="row">
                                 <div className="col s6">
                                     <div id="Vi">
@@ -85,6 +85,7 @@ export default class Us extends Component {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

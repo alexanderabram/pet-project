@@ -20,27 +20,26 @@ nav {
     z-index: -1;   
   }
 
-  h4 {
-      font-size: 15px;
-      white-space: nowrap;
-      overflow: hidden;
-  }
-
+  
   #ourSection {
-      min-height: 400px;
       margin-top: 10%;
-  }
-
-  #group {
-      margin-top: 1%;
-  }
-
-  #headShot {
-      max-width: 50px;
-      max-height: 50px;
-      border: 5px solid teal;
-  }
-
-  #sect {
-      border-bottom: 2px solid black;
-  }
+      margin-bottom: 0px;
+    }
+    
+    #group {
+        margin-top: 1%;
+        margin-bottom: 0px;
+    }
+    
+    #headShot {
+        max-width: 90px;
+        max-height: 90px;
+        border: 5px solid teal;
+    }
+    
+    #thisIsUs {
+        border-bottom: 2px solid black;
+    }
+    
+    
+    
