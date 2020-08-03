@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import 'materialize-css/dist/css/materialize.min.css'
 import "materialize-css";
 import M from "materialize-css";
-import placeholder1 from "../images/placeholder1.jpg";
 import Ray from "../images/Ray.jpg";
 import Grigore from "../images/Grigore.jpeg";
 import Violet from "../images/Violet.png";
