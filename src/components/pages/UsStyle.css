@@ -23,29 +23,22 @@ nav {
   
   #ourSection {
       margin-top: 10%;
-      margin-bottom: 0px;
-    }
-    
-    #group {
-        margin-top: 1%;
-        margin-bottom: 0px;
-    }
-    
-    #headShot {
-        max-width: 90px;
-        max-height: 90px;
-        border: 5px solid teal;
-    }
-    
-    #thisIsUs {
-        border-bottom: 2px solid black;
-    }
+  }
 
-    #personPic {
-        margin-top: 0px;
-        padding-top: 0px;
-        background-color: yellow;
-    }
-    
-    
-    
+  #group {
+      margin-top: 3%;
+  }
+
+  #pic {
+      max-width: 60px;
+      max-height: 60px;
+      border: 5px solid teal;
+      margin-top: 3%;
+  }
+
+  #sect {
+      border-bottom: 2px solid black;
+  }
+
+  
+
