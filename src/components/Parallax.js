@@ -16,7 +16,7 @@ const Parallax = () => {
 
     return (
         <div>
-            <div class="parallax-container">
+            <div className="parallax-container">
                 <div className="parallax">
                     <img src={Background1} alt="Pets" />
                 </div>
@@ -33,7 +33,7 @@ const Parallax = () => {
             <div className="container">
                 <div className="section white">
                     <h3><b>What We're About</b></h3>
-                    <p class="left-align light">Dogs, cats, other friends... they're more than just pets, they’re part of the family.
+                    <p className="left-align light">Dogs, cats, other friends... they're more than just pets, they’re part of the family.
                     Sometimes our four-legged friends need a new home or owner. That's where The Pets-N-Parents Parade
                     comes in. PPP aims to connect those who are looking to add a new member of the family with
                     those who want to be confident that their pet will continue to be loved and cared for!
@@ -53,19 +53,19 @@ const Parallax = () => {
             <div className="container">
                 <div className="section white">
                     {/* Icon Section */}
-                    <div class="row">
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <h2 class="center brown-text"><GiHearts size="60px" color="black" /></h2>
+                    <div className="row">
+                        <div className="col s12 m4">
+                            <div className="icon-block">
+                                <h2 className="center brown-text"><GiHearts size="60px" color="black" /></h2>
                                 <h5 id="icon">We Know You Still Love'em!</h5>
 
                                 <p>We aim to make your pet's transistion to a new home as easy as possible!</p>
                             </div>
                         </div>
 
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <h2 class="center brown-text"><GiCycle size="60px" color="black" /></h2>
+                        <div className="col s12 m4">
+                            <div className="icon-block">
+                                <h2 className="center brown-text"><GiCycle size="60px" color="black" /></h2>
                                 <h5 id="icon">Shared Interst</h5>
 
                                 <p>No one wants to see the family friend lost in the shuffle of any transistion.
@@ -73,9 +73,9 @@ const Parallax = () => {
                             </div>
                         </div>
 
-                        <div class="col s12 m4">
-                            <div class="icon-block">
-                                <h2 class="center brown-text"><GiPawPrint size="60px" color="black" /></h2>
+                        <div className="col s12 m4">
+                            <div className="icon-block">
+                                <h2 className="center brown-text"><GiPawPrint size="60px" color="black" /></h2>
                                 <h5 id="icon">It's All About The Little Buddies</h5>
 
                                 <p>Your pet needs a home...</p>
