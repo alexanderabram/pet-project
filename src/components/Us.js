@@ -21,7 +21,7 @@ export default class Us extends Component {
         return (
             <div className="row" id="group">
                 <div className="col s12">
-                    <div className="col s12" id="thisIsUs">
+                    <div className="col s12" id="thisIsUs"  className="center-align">
                         <h3><b>This is Us</b></h3>
                     </div>
                     <div className="container" id="ourSection">

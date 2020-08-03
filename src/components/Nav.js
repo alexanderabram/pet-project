@@ -26,9 +26,9 @@ export default class Nav extends Component {
                     </ul>
 
                     <ul id="nav-mobile" className="sidenav">
-                        <li><a href="#">Sign-Up To List Your Pet</a></li>
+                        <li><a href="/signup">Sign-Up To List Your Pet</a></li>
                     </ul>
-                    <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+                    <a href="/signup" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons" style={{color: "black"}} >Sign-Up To List Your Pet</i></a>
                 </div>
             </nav>
         )
