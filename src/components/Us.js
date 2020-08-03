@@ -43,19 +43,13 @@ export default class Us extends Component {
                             <div className="row">
                                 <div className="col s6">
                                     <div id="personPic">
-
-                                        Web Developer
-                                        <img id="headShot" src={Grigore} alt="Grigore" />
-
-
+                                        <img id="pic" className="right" src={Grigore} alt="Grigore" />
                                     </div>
                                 </div>
                                 <div className="col s6">
                                     <div id="Grigore">
 
-                                        Grigore comes from a country where people have a cruel relation with pets leaving them outside all year round and using them only as security.I hope this app will be useful and will help stop violence against animals and will make happy those who love pets.
-
-                                    <p className="left-align">This is Grigore's Info</p>
+                                       <p className="left-align"> Grigore comes from a country where people have a cruel relation with pets leaving them outside all year round and using them only as security.I hope this app will be useful and will help stop violence against animals and will make happy those who love pets.</p>
 
                                     </div>
                                 </div>
