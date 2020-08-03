@@ -13,31 +13,31 @@ export default class Footer extends Component {
 
     render() {
         return (
-                <footer class="page-footer teal">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col l8 s12">
-                                <h5 class="white-text">Us</h5>
-                                <p class="grey-text text-lighten-4">We want to connect pet owners that are no longer able to care
+                <footer className="page-footer teal">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col l8 s12">
+                                <h5 className="white-text">Us</h5>
+                                <p className="grey-text text-lighten-4">We want to connect pet owners that are no longer able to care
                                 for their pets to qualified families or individuals looking to rescue. We want to ease the worry of
                                 finding a suitable family for a pet and provide a direct link between current and potential pet care-takers.</p>
 
 
                             </div>
 
-                            <div class="container">
-                                <h5 class="white-text">Links</h5>
+                            <div className="container">
+                                <h5 className="white-text">Links</h5>
                                 <ul>
-                                    <li><a class="white-text" href="/us">About Us</a></li>
-                                    <li><a class="white-text" href="/signup">Sign-Up</a></li>
-                                    <li><a class="white-text" href="/">Home</a></li>
+                                    <li><a className="white-text" href="/us">About Us</a></li>
+                                    <li><a className="white-text" href="/signup">Sign-Up</a></li>
+                                    <li><a className="white-text" href="/">Home</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="footer-copyright">
-                        <div class="container">
-                            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                    <div className="footer-copyright">
+                        <div className="container">
+                            Made by <a className="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
                         </div>
                     </div>
                 </footer>

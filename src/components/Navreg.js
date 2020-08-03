@@ -16,18 +16,18 @@ export default class Navreg extends Component {
 
     render() {
         return (
-            <nav class="teal" role="navigation">
+            <nav className="teal" role="navigation">
 
-                        <div class="nav-wrapper container" >
+                        <div className="nav-wrapper container" >
                             <a id="logo-container" ><GiPawHeart size="60px" color="black" /><GiHorizontalFlip size="60px" color="black" /><GiGhostAlly size="60px" color="black" /></a>
-                            <ul class="right hide-on-med-and-down">
+                            <ul className="right hide-on-med-and-down">
                                 <li><a href="/">Home</a></li>
                             </ul>
 
-                            <ul id="nav-mobile" class="sidenav">
+                            <ul id="nav-mobile" className="sidenav">
                                 <li><a href="#">Sign-Up To List Your Pet</a></li>
                             </ul>
-                            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                            <a href="#" data-target="nav-mobile" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                         </div>
                     </nav>
         )

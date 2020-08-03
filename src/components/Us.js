@@ -4,6 +4,7 @@ import "materialize-css";
 import M from "materialize-css";
 import placeholder1 from "../images/placeholder1.jpg";
 import Ray from "../images/Ray.jpg";
+import Grigore from "../images/Grigore.jpeg";
 import Violet from "../images/Violet.png";
 
 import "./css/style.css";
@@ -43,13 +44,20 @@ export default class Us extends Component {
                             <div className="row">
                                 <div className="col s6">
                                     <div id="personPic">
-                                        This is Grigore's Picture
-                                        <img id="pic" className="right" src={placeholder1} alt="Grigore" />
+
+                                        Web Developer
+                                        <img id="headShot" src={Grigore} alt="Grigore" />
+
+                                      
                                     </div>
                                 </div>
                                 <div className="col s6">
                                     <div id="Grigore">
+
+                                        Grigore comes from a country where people have a cruel relation with pets leaving them outside all year round and using them only as security.I hope this app will be useful and will help stop violence against animals and will make happy those who love pets.
+
                                     <p  className="left-align">This is Grigore's Info</p>
+
                                     </div>
                                 </div>
                             </div>
