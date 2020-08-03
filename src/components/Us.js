@@ -4,6 +4,7 @@ import "materialize-css";
 import M from "materialize-css";
 import placeholder1 from "../images/placeholder1.jpg";
 import Ray from "../images/Ray.jpg";
+import Violet from "../images/Violet.png";
 
 import "./css/style.css";
 import "./pages/UsStyle.css";
@@ -71,12 +72,12 @@ export default class Us extends Component {
                                 <div className="col s6">
                                     <div id="Vi">
                                         This is Vi's Picture
-                                        <img src={placeholder1} alt="Vi" />
+                                        <img src={Violet} alt="Vi" />
                                     </div>
                                 </div>
                                 <div className="col s6">
                                     <div id="Vi">
-                                        This is Vi's Info
+                                        UX/UI designer hopeful, recent Vanderbilt University Coding Boot Camp graduate. cat mom, dogs are okay i guess.
                                     </div>
                                 </div>
                             </div>
