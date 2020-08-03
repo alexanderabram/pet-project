@@ -40,6 +40,12 @@ nav {
     #thisIsUs {
         border-bottom: 2px solid black;
     }
+
+    #personPic {
+        margin-top: 0px;
+        padding-top: 0px;
+        background-color: yellow;
+    }
     
     
     

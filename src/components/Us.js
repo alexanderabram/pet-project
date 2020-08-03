@@ -32,7 +32,7 @@ export default class Us extends Component {
                                     </div>
                                 </div>
                                 <div className="col s6">
-                                    <div id="Alex">
+                                    <div id="personPic">
                                         <img id="headShot" src={placeholder1} alt="Alex" />
                                         This is Alex's Picture
                                     </div>
@@ -42,7 +42,7 @@ export default class Us extends Component {
                             <p>-----------------------------------------------------------------------------------------------------------------------------------</p>
                             <div className="row">
                                 <div className="col s6">
-                                    <div id="Grigore">
+                                    <div id="personPic">
                                         This is Grigore's Picture
                                         <img id="headShot" src={placeholder1} alt="Grigore" />
                                     </div>
@@ -64,7 +64,7 @@ export default class Us extends Component {
                                     </div>
                                 </div>
                                 <div className="col s6">
-                                    <div id="Ray">
+                                    <div id="personPic">
                                         <img id="headShot" src={Ray} alt="Ray" />
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ export default class Us extends Component {
                             <p>-----------------------------------------------------------------------------------------------------------------------------------</p>
                             <div className="row">
                                 <div className="col s6">
-                                    <div id="Vi">
+                                    <div id="personPic">
                                         This is Vi's Picture
                                         <img id="headShot" src={placeholder1} alt="Vi" />
                                     </div>
