@@ -30,7 +30,7 @@ export default class Us extends Component {
                             <div className="row">
                                 <div className="col s6">
                                     <div id="Alex">
-                                        <p className="right-align">Alex has always loved dogs. He currently has three four-legged members of the family, Teddy, Nelli, and Ralphie.</p>
+                                        <p className="right-align">Alex has always loved dogs. He currently has three four-legged members of the family, Teddy, Nelli, and Ralphie. Alex believes all pets deserve a loving and responsible home, and is confident pet parade can provide this opportunity.</p>
                                     </div>
                                 </div>
                                 <div className="col">
