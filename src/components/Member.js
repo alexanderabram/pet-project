@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import 'materialize-css/dist/css/materialize.min.css'
 import "materialize-css";
 import M from "materialize-css";
-import { GiPerson } from "react-icons/gi";
-import { GiPadlock } from "react-icons/gi";
 import { GiRabbit } from "react-icons/gi";
 import "./css/style.css";
 import "./pages/MemberStyle.css";
