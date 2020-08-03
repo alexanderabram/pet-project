@@ -68,7 +68,7 @@ export default class Listpet extends Component {
                             </form>
                         </div>
                         <div class="row">
-                            <div class="input-field col s6" id="listBtn">
+                            <div class="input-field col s6" id="listBtn" className="center-align">
                                 <a class="waves-effect waves-light btn-large">Post Pet    <GiLoveHowl size="30px" color="black" /></a>
                             </div>
                         </div>

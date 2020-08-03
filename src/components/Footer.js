@@ -28,11 +28,10 @@ export default class Footer extends Component {
 
                             <div class="container"  id="usFoot">
                                 <h5 class="white-text">Links</h5>
-
                                 <ul>
-                                    <li><a className="white-text" href="/us">About Us</a></li>
-                                    <li><a className="white-text" href="/signup">Sign-Up</a></li>
-                                    <li><a className="white-text" href="/">Home</a></li>
+                                    <li><a class="white-text" href="/us">About Us</a></li>
+                                    <li><a class="white-text" href="/signup">Sign-Up</a></li>
+                                    <li><a class="white-text" href="/">Home</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -40,7 +39,6 @@ export default class Footer extends Component {
                     <div class="footer-copyright">
                         <div class="container">
                             Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-
                         </div>
                     </div>
                 </footer>

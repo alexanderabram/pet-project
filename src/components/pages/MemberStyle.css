@@ -31,11 +31,10 @@ nav {
   }
 
   #member {
-      margin-top: 20px;
-      margin-left: 30%;
+      margin-top: 5%;
+      /* margin-left: 30%; */
     }
 
 #container {
         min-height: 300px;
-        margin-left: -50px;
     }
