@@ -20,14 +20,8 @@ nav {
     z-index: -1;   
   }
 
-  h4 {
-      font-size: 15px;
-      white-space: nowrap;
-      overflow: hidden;
-  }
-
+  
   #ourSection {
-      min-height: 400px;
       margin-top: 10%;
   }
 
@@ -47,3 +41,4 @@ nav {
   }
 
   
+

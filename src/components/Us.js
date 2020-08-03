@@ -4,6 +4,7 @@ import "materialize-css";
 import M from "materialize-css";
 import placeholder1 from "../images/placeholder1.jpg";
 import Ray from "../images/Ray.jpg";
+import Violet from "../images/Violet.png";
 
 import "./css/style.css";
 import "./pages/UsStyle.css";
@@ -19,11 +20,11 @@ export default class Us extends Component {
         return (
             <div className="row" id="group">
                 <div className="col s12">
-                    <div className="col s12" id="sect">
+                    <div className="col s12" id="thisIsUs">
                         <h3><b>This is Us</b></h3>
                 </div>
                     <div className="container" id="ourSection">
-                        <div className="col s12">
+                        <div className="col s12" id="filler">
 
                             <div className="row">
                                 <div className="col s6">
@@ -31,7 +32,7 @@ export default class Us extends Component {
                                     <p  className="right-align">This is Alex's info</p>
                                     </div>
                                 </div>
-                                <div className="col s6">
+                                <div className="col">
                                     <div id="Alex">
                                         <img id="pic" className="left" src={placeholder1} alt="Alex" />
                                         This is Alex's Picture
@@ -39,10 +40,9 @@ export default class Us extends Component {
                                 </div>
                             </div>
 
-
                             <div className="row">
                                 <div className="col s6">
-                                    <div id="Grigore">
+                                    <div id="personPic">
                                         This is Grigore's Picture
                                         <img id="pic" className="right" src={placeholder1} alt="Grigore" />
                                     </div>
@@ -53,8 +53,7 @@ export default class Us extends Component {
                                     </div>
                                 </div>
                             </div>
-                            
-
+                    
                             <div className="row">
                                 <div className="col s6">
                                     <div id="Ray">
@@ -66,24 +65,26 @@ export default class Us extends Component {
                                 <div className="col s6">
                                     <div id="Ray">
                                         <img id="pic" className="left" src={Ray} alt="Ray" />
+
                                     </div>
                                 </div>
                             </div>
 
                             <div className="row">
                                 <div className="col s6">
-                                    <div id="Vi">
-                                        This is Vi's Picture
-                                        <img id="pic" className="right" src={placeholder1} alt="Vi" />
+                                    <div id="personPic">
+                                        <img id="pic" className="right" src={Violet} alt="Vi" />
                                     </div>
                                 </div>
                                 <div className="col s6">
                                     <div id="Vi">
-                                    <p  className="left-align">This is Vi's Info</p>
+                                    <p  className="left-align">UX/UI designer hopeful, recent Vanderbilt University Coding Boot Camp graduate. cat mom, dogs are okay i guess.</p>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>

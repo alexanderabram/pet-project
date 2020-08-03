@@ -25,7 +25,7 @@ export default class Footer extends Component {
 
                             </div>
 
-                            <div class="col l3">
+                            <div class="container">
                                 <h5 class="white-text">Links</h5>
                                 <ul>
                                     <li><a class="white-text" href="/us">About Us</a></li>
