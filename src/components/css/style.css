@@ -1,0 +1,118 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+li {
+  text-decoration: underline;
+  font-weight: bold;
+  color: white;
+}
+
+#logo-container {
+  margin-left: 0rem;
+}
+
+#P1 {
+  margin-top: 150px;
+  font-size: 25px;
+}
+ 
+#app {
+  max-width: 100vw;
+}
+
+h1 {
+  color: rgb(2, 163, 163);
+}
+
+h5 {
+  color: white;
+}
+
+#download-button {
+  margin-top: 50px;
+}
+
+#last {
+  color: black;
+  margin-top: 150px;
+}
+
+#foot {
+  align-content: initial;
+}
+
+#icon {
+  color: black;
+}
+
+#logSign {
+  margin-left: 30%;
+}
+
+#logSign1 {
+  margin-top: 20px;
+  margin-left: 30%;
+}
+
+#free {
+  color: rgb(2, 163, 163);
+}
+
+#mem {
+  color: rgb(2, 163, 163);
+}
