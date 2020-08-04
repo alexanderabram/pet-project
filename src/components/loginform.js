@@ -25,18 +25,20 @@ export default class LoginForm extends Component {
                         </div>
 
                         <div class="row">
-                            <div class="input-field col s6">
-                                <input id="icon_prefix" id="memberUsername" type="text" class="validate" />
+                            <div class="input-field col s6" id="memberUsername">
+                                <input id="icon_prefix"  type="text" class="validate" />
                                 <label for="icon_prefix"><GiPerson size="30px" color="black" />Username</label>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="input-field col s6">
-                                <input id="icon_telephone" id="memberPsw" type="tel" class="validate" />
+                                <input id="icon_telephone"  type="tel" class="validate" />
                                 <label for="icon_telephone"><GiPadlock size="30px" color="black" />Password</label>
                             </div>
                         </div>
+
+                        
 
                         <div class="row">
                             <div class="input-field col s6">
