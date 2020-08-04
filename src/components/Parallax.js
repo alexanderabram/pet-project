@@ -66,7 +66,7 @@ const Parallax = () => {
                         <div className="col s12 m4">
                             <div className="icon-block">
                                 <h2 className="center brown-text"><GiCycle size="60px" color="black" /></h2>
-                                <h5 id="icon">Shared Interst</h5>
+                                <h5 id="icon">Shared Interest</h5>
 
                                 <p>No one wants to see the family friend lost in the shuffle of any transistion.
                                     Those who care get to help others that care, and everyone benefits. Especially the smallest one!</p>
