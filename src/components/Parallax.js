@@ -46,7 +46,7 @@ const Parallax = () => {
                     <img src={Background2} alt="Pet Art" />
                 </div>
                 <div className="section">
-                    <p id="P1" className="center-align"> Does your buddie need a new home or does your home need a new buddie? </p>
+                    <p id="P1" className="center-align"> Does your buddy need a new home or does your home need a new buddy? </p>
                 </div>
             </div>
             
