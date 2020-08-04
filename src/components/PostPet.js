@@ -30,12 +30,12 @@ export default class Listpet extends Component {
                         <div class="row">
                             <form class="col s11">
                                 <div class="row">
-                                    <div class="input-field col s6">
-                                        <input id="icon_prefix" id="petName" type="text" class="validate" />
+                                    <div class="input-field col s6"  id="petName">
+                                        <input id="icon_prefix" type="text" class="validate" />
                                         <label for="icon_prefix" ><GiPawPrint size="30px" color="black" />    Your Pet's Name</label>
                                     </div>
-                                    <div class="input-field col s6">
-                                        <input id="icon_prefix" id="petType" type="text" class="validate" />
+                                    <div class="input-field col s6" id="petType">
+                                        <input id="icon_prefix" type="text" class="validate" />
                                         <label for="icon_prefix" ><GiVirtualMarker size="30px" color="black" />    Your Pet's Type (ex. dog)</label>
                                     </div>
                                 </div>
@@ -45,8 +45,8 @@ export default class Listpet extends Component {
                         <div class="row">
                             <form class="col s12">
                                 <div class="row">
-                                    <div class="input-field col s11">
-                                        <textarea id="textarea1" id="petBio" class="materialize-textarea"></textarea>
+                                    <div class="input-field col s11"  id="petBio">
+                                        <textarea id="textarea1" class="materialize-textarea"></textarea>
                                         <label for="textarea1" ><GiTalk size="30px" color="black" />        Tell Us About Your Pet</label>
                                     </div>
                                 </div>
@@ -56,19 +56,19 @@ export default class Listpet extends Component {
                         <div class="row">
                             <form class="col s11">
                                 <div class="row">
-                                    <div class="input-field col s6">
-                                        <input id="icon_prefix" id="petOwner" type="text" class="validate" />
+                                    <div class="input-field col s6" id="petOwner">
+                                        <input id="icon_prefix" type="text" class="validate" />
                                         <label for="icon_prefix" ><GiPerson size="30px" color="black" />    Your Name</label>
                                     </div>
-                                    <div class="input-field col s6">
-                                        <input id="icon_prefix" id="petContact" type="text" class="validate" />
+                                    <div class="input-field col s6" id="petContact">
+                                        <input id="icon_prefix" type="text" class="validate" />
                                         <label for="icon_prefix" ><GiSmartphone size="30px" color="black" />    Best Way To Contact You</label>
                                     </div>
                                 </div>
                             </form>
                         </div>
-                        <div class="row">
-                            <div class="input-field col s6" id="listBtn" className="center-align">
+                        <div class="row" id="listBtn">
+                            <div class="input-field col s6" className="center-align">
                                 <a class="waves-effect waves-light btn-large">Post Pet    <GiLoveHowl size="30px" color="black" /></a>
                             </div>
                         </div>
