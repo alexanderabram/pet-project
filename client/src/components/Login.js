@@ -31,7 +31,7 @@ export default class Login extends Component {
                 <div className="row">
                     <form className="col s12" >
                         <div>
-                            <h3>Log In</h3><h5 id="free">It's Free!</h5>
+                            <h3>Log In</h3>
                         </div>
 
                         <div className="row">
