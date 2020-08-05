@@ -10,11 +10,6 @@ import "./pages/logStyle.css";
 
 export default class LoginForm extends Component {
 
-    componentDidUpdate() {
-        let Login = document.querySelectorAll(".Login");
-        M.Login.init(Login, {});
-    }
-
     render() {
         return (
             <div className="container" id="logSign">

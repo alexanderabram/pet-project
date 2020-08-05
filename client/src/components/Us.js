@@ -12,11 +12,6 @@ import "./pages/UsStyle.css";
 
 export default class Us extends Component {
 
-    componentDidUpdate() {
-        let Us = document.querySelectorAll(".Us");
-        M.Us.init(Us, {});
-    }
-
     render() {
         return (
             <div className="row" id="group">

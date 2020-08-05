@@ -6,11 +6,6 @@ import "./css/style.css";
 
 export default class Footer extends Component {
 
-    componentDidUpdate() {
-        let Footer = document.querySelectorAll(".Footer");
-        M.Footer.init(Footer, {});
-    }
-
     render() {
         return (
                 <footer className="page-footer teal">
