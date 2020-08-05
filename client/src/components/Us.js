@@ -79,7 +79,7 @@ export default class Us extends Component {
                                 </div>
                                 <div className="col s9">
                                     <div id="Vi">
-                                        <p className="left-align">UX/UI designer hopeful, recent 
+                                        <p className="left-align">Violet is a UX/UI designer hopeful, recent 
                                         Vanderbilt University Coding Boot Camp graduate. cat mom, dogs are okay I guess.</p>
 
                                     </div>
