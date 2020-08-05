@@ -27,6 +27,7 @@ const Login = (props) => {
         })
     }
 
+
     return (
         <div className="container" id="logSign1">
             <div className="row">
@@ -34,6 +35,7 @@ const Login = (props) => {
                     <div>
                         <h3>Log In</h3><h5 id="free">It's Free!</h5>
                     </div>
+
 
                     <div className="row">
                         <div className="input-field col s6" id="newMemberName">

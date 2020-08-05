@@ -13,7 +13,7 @@ const Parallax = () => {
 
     return (
         <div>
-            <div class="parallax-container">
+            <div className="parallax-container">
                 <div className="parallax">
                     <img src={Background1} alt="Pets" />
                 </div>

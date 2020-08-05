@@ -8,12 +8,12 @@ export default class Footer extends Component {
 
     render() {
         return (
-                <footer class="page-footer teal">
-                    {/* <div class="container"> */}
-                        <div class="row" className="left-align">
-                            <div class="container" >
-                                <h5 class="white-text">Us</h5>
-                                <div class="col s2">
+                <footer className="page-footer teal">
+                    {/* <div className="container"> */}
+                        <div className="row" className="left-align">
+                            <div className="container" >
+                                <h5 className="white-text">Us</h5>
+                                <div className="col s2">
                                 We want to connect pet owners that are no longer able to care for their pets to qualified families<br></br>
                                 or individuals looking to rescue. We want to ease the worry of finding a suitable family for a pet <br></br>
                                 and provide a direct link between current and potential pet care-takers.
@@ -21,19 +21,19 @@ export default class Footer extends Component {
 
                             </div>
 
-                            <div class="container"  id="usFoot">
-                                <h5 class="white-text">Links</h5>
+                            <div className="container"  id="usFoot">
+                                <h5 className="white-text">Links</h5>
                                 <ul>
-                                    <li><a class="white-text" href="/us">About Us</a></li>
-                                    <li><a class="white-text" href="/signup">Sign-Up</a></li>
-                                    <li><a class="white-text" href="/">Home</a></li>
+                                    <li><a className="white-text" href="/us">About Us</a></li>
+                                    <li><a className="white-text" href="/signup">Sign-Up</a></li>
+                                    <li><a className="white-text" href="/">Home</a></li>
                                 </ul>
                             </div>
                         </div>
                     {/* </div> */}
-                    <div class="footer-copyright">
-                        <div class="container">
-                            Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+                    <div className="footer-copyright">
+                        <div className="container">
+                            Made by <a className="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
                         </div>
                     </div>
                 </footer>
