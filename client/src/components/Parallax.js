@@ -9,10 +9,7 @@ import { GiPawPrint } from "react-icons/gi";
 import "./css/style.css";
 
 const Parallax = () => {
-    useEffect(() => {
-        let elements = document.querySelectorAll(".parallax");
-        M.Parallax.init(elements);
-    }, []);
+
 
     return (
         <div>
@@ -27,7 +24,7 @@ const Parallax = () => {
                 <div className="row center">
                     <a href="/login" id="download-button"
                         className="btn-large waves-effect waves-light teal lighten-1"><b>Member Login</b></a>
-                </div> 
+                </div>
             </div>
 
             <div className="container">
@@ -49,7 +46,7 @@ const Parallax = () => {
                     <p id="P1" className="center-align"> Does your buddy need a new home or does your home need a new buddy? </p>
                 </div>
             </div>
-            
+
             <div className="container">
                 <div className="section white">
                     {/* Icon Section */}

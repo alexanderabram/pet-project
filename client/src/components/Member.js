@@ -8,11 +8,6 @@ import "./pages/MemberStyle.css";
 
 export default class MembersForm extends Component {
 
-    componentDidUpdate() {
-        let Members = document.querySelectorAll(".Members");
-        M.Members.init(Members, {});
-    }
-
     render() {
         return (
             <div class="container" id="member">

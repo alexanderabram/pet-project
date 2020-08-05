@@ -9,11 +9,6 @@ import "./css/style.css";
 
 export default class Nav extends Component {
 
-    componentDidUpdate() {
-        let Nav = document.querySelectorAll(".Nav");
-        M.Nav.init(Nav, {});
-    }
-
     render() {
         return (
 

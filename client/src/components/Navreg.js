@@ -9,10 +9,6 @@ import "./css/style.css";
 
 export default class Navreg extends Component {
 
-    componentDidUpdate() {
-        let Navreg = document.querySelectorAll(".Navreg");
-        M.Navreg.init(Navreg, {});
-    }
 
     render() {
         return (

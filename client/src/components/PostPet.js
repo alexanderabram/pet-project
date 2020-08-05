@@ -13,11 +13,6 @@ import "./pages/PostStyle.css";
 
 export default class Listpet extends Component {
 
-    componentDidUpdate() {
-        let Listpet = document.querySelectorAll(".Listpet");
-        M.Listpet.init(Listpet, {});
-    }
-
     render() {
         return (
             <div class="container" id="list">
