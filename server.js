@@ -1,10 +1,30 @@
 const express = require("express");
 const passport = require('passport');
-
+const db = require("./models");
 const mongoose = require("mongoose");
+// const passportLocalMongoose = require('passport-local-mongoose');
 const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
+const LocalStrategy = require('passport-local').Strategy;
+const session = require("express-session");
+const path = require("path");
+app.use(session({ secret: "cats" }))
+
+passport.use(new LocalStrategy(
+    function (username, password, done) {
+        db.User.findOne({ username: username }, function (err, user) {
+            if (err) { return done(err); }
+            if (!user) {
+                return done(null, false, { message: 'Incorrect username.' });
+            }
+            if (!user.validPassword(password)) {
+                return done(null, false, { message: 'Incorrect password.' });
+            }
+            return done(null, user);
+        });
+    }
+));
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -18,6 +38,22 @@ if (process.env.NODE_ENV === "production") {
 }
 // Add routes, both API and view
 app.use(routes);
+
+// Send every other request to the React app
+// Define any API routes before this runs
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
+passport.serializeUser(function (user, done) {
+    done(null, user._id);
+});
+
+passport.deserializeUser(function (id, done) {
+    db.User.findById(id, function (err, user) {
+        done(err, user);
+    });
+});
 
 // Connect to the Mongo DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/petproject");

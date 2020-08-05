@@ -2,23 +2,23 @@ import React from "react";
 import 'materialize-css/dist/css/materialize.min.css'
 import "materialize-css";
 // import { Link } from "react-router-dom";
-import '../../../src/App.css';
-import Nav from "../Nav";
+import '../../App.css';
+import Navreg from "../Navreg";
 import Footer from "../Footer";
-import Parallax from "../Parallax";
+import Listpet from "../PostPet";
 
 
 
 
-const Homepage = () => {
+const Postpet = () => {
 
     return (
         <div className="App" id="app">
-            <Nav />
-            <Parallax />
+            <Navreg />
+            <Listpet />
             <Footer />
         </div>
     );
 };
 
-export default Homepage;
+export default Postpet;
