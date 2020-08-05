@@ -1,4 +1,4 @@
-import React, { useRef, useContext, useEffect } from "react";
+import React, { useRef, useContext, useEffect, useState } from "react";
 import PetContext from "../utils/Context";
 import 'materialize-css/dist/css/materialize.min.css'
 import "materialize-css";
@@ -9,8 +9,10 @@ import { GiWhiteCat } from "react-icons/gi";
 import "./css/style.css";
 import "./pages/signStyle.css";
 import axios from "axios";
+import { Redirect } from "react-router-dom";
 
 const Login = (props) => {
+    const [signIn, setSignIn] = useState(false); 
     const userNameRef = useRef(null);
     const passwordRef = useRef(null);
     const [context, setContext] = useContext(PetContext);
@@ -24,9 +26,12 @@ const Login = (props) => {
         const user = { name: userNameRef.current.value, password: passwordRef.current.value };
         axios.post("/login", user).then(() => {
             console.log("Logged in Succesfully");
-        })
+            setSignIn(true);
+        });
     }
-
+    if(signIn) {
+        return <Redirect to="/members" />
+    }
 
     return (
         <div className="container" id="logSign1">
