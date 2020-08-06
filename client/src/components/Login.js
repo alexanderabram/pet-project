@@ -24,7 +24,7 @@ const Login = (props) => {
         e.preventDefault();
         console.log("Log In");
         const user = { name: userNameRef.current.value, password: passwordRef.current.value };
-        axios.post("/login", user).then(() => {
+        axios.post("/api/login", user).then(() => {
             console.log("Logged in Succesfully");
             setSignIn(true);
         });
@@ -38,7 +38,7 @@ const Login = (props) => {
             <div className="row">
                 <form className="col s12" >
                     <div>
-                        <h3>Log In</h3><h5 id="free">It's Free!</h5>
+                        <h3>Log In</h3>
                     </div>
 
 

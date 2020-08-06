@@ -6,7 +6,7 @@ router.post("/login", (req, res) => {
         req.login(user, function (err) {
             if (err) { return console.log(err); }
             return res.send('login');
-        });  
+        });
     }).catch((err) => res.json(err));
 })
 
@@ -15,6 +15,13 @@ router.post("/signup", (req, res) => {
         console.log("Successfully Created");
         return res.send("Success");
     }).catch((err) => res.json(err));
+})
+
+router.post("/pets", (req, res) => {
+    db.Pet.create(req.body)
+        .then(function () {
+         return res.send("Pet Posted");
+        }).catch((err) => res.json(err));
 })
 
 
