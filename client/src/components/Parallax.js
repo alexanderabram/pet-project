@@ -9,7 +9,10 @@ import { GiPawPrint } from "react-icons/gi";
 import "./css/style.css";
 
 const Parallax = () => {
-
+    useEffect(() => {
+        let elements = document.querySelectorAll(".parallax");
+        M.Parallax.init(elements);
+    }, []);
 
     return (
         <div>

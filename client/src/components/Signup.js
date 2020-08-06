@@ -24,7 +24,7 @@ const SignupForm = (props) => {
         e.preventDefault();
         console.log("Sign Up");
         const user = { name: newUserRef.current.value, password: newPasswordRef.current.value };
-        axios.post("/signup", user).then(() => {
+        axios.post("/api/signup", user).then(() => {
             console.log("User created successfully");
             setSignIn(true);
         });
