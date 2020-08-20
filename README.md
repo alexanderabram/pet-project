@@ -13,6 +13,6 @@ Need a new family member? Have you gotten to a point in your life where you can 
     Heroku - https://pet-n-parent.herokuapp.com/
 
 ## Technology Used 
-    Heroku, MySQL, Bootstrap, HTML/CSS, Handlebars, 
+    Heroku, MySQL, Bootstrap, HTML/CSS, Handlebars, Express, 
 
 
