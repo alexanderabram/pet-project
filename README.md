@@ -16,6 +16,12 @@ Need a new family member? Have you gotten to a point in your life where you can 
     Heroku, MySQL, Bootstrap, HTML/CSS, Handlebars, Express, Node, JQuery
 
 ## Contributors 
-
+Ray Phillips - https://github.com/raydphillips3
+@alexanderabram
+alexanderabram alexanderabram
+@DaVioletDeath
+DaVioletDeath DaVioletDeath
+@Grigore94
+Grigore94 Grigore94
 
 
