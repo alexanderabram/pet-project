@@ -16,10 +16,10 @@ Need a new family member? Have you gotten to a point in your life where you can 
     Heroku, MySQL, Bootstrap, HTML/CSS, Handlebars, Express, Node, JQuery
 
 ## Contributors 
-Ray Phillips - https://github.com/raydphillips3
-Alexander Abram - https://github.com/alexanderabram 
-Violet Dreyfuss - https://github.com/DaVioletDeath 
-Grigore - https://github.com/Grigore94
+    Ray Phillips - https://github.com/raydphillips3
+    Alexander Abram - https://github.com/alexanderabram 
+    Violet Dreyfuss - https://github.com/DaVioletDeath 
+    Grigore - https://github.com/Grigore94
 
 
 
