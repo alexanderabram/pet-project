@@ -18,9 +18,8 @@ Need a new family member? Have you gotten to a point in your life where you can 
 ## Contributors 
 Ray Phillips - https://github.com/raydphillips3
 Alexander Abram - https://github.com/alexanderabram 
-@DaVioletDeath
-DaVioletDeath DaVioletDeath
-@Grigore94
-Grigore94 Grigore94
+Violet Dreyfuss - https://github.com/DaVioletDeath 
+Grigore - https://github.com/Grigore94
+
 
 
